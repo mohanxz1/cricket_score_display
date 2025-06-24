@@ -1,22 +1,21 @@
 🌐 CRICKET_SCORE_DISPLAY
+
 A command-line developer tool designed to facilitate the presentation of real-time cricket scores, integrating detailed match data and player statistics into a cohesive and easily digestible display. This platform serves as a central hub for tracking and analyzing cricket match performance.
 
 ✨ Features
+Comprehensive Data Management: Well-organized data structures for players (batsman, bowler), teams, and match details, enabling robust and comprehensive data management [cite: finaldef.c, image_5cf597.png].
 
-Comprehensive Data Management: Well-organized data structures for players (batsman, bowler), teams, and match details, enabling robust and comprehensive data management.
+Real-Time Data Input & Display: Supports dynamic score input during a match, ensuring users can record and view the latest match information as it happens [cite: finaldef.c, image_5cf597.png].
 
-Real-Time Data Input & Display: Supports dynamic score input during a match, ensuring users can record and view the latest match information as it happens.
+Detailed Performance Metrics: Tracks individual player performance metrics including runs scored, balls faced, boundaries (fours, sixes) for batsmen, and runs conceded, overs bowled, wickets taken, maiden overs, and economy for bowlers [cite: finaldef.c, image_5cf5bd.png].
 
-Detailed Performance Metrics: Tracks individual player performance metrics including runs scored, balls faced, boundaries (fours, sixes) for batsmen, and runs conceded, overs bowled, wickets taken, maiden overs, and economy for bowlers.
+Match Summary Generation: Generates a complete match summary, including total scores, total wickets, extras, highest individual batsman scores, and best bowling figures for both innings [cite: finaldef.c].
 
-Match Summary Generation: Generates a complete match summary, including total scores, total wickets, extras, highest individual batsman scores, and best bowling figures for both innings.
+Match Result Determination: Automatically determines and displays the match result (win by runs, win by wickets, or tie) based on the recorded scores [cite: finaldef.c].
 
-Match Result Determination: Automatically determines and displays the match result (win by runs, win by wickets, or tie) based on the recorded scores.
-
-Persistent Data Storage: Saves all match details and summaries to text files for future reference and analysis, including team-specific player data and a global all_match_summaries.txt.
+Persistent Data Storage: Saves all match details and summaries to text files for future reference and analysis, including team-specific player data and a global all_match_summaries.txt [cite: finaldef.c].
 
 🚀 Technologies Used
-
 This project is built primarily with the following technology:
 
 C
@@ -41,9 +40,9 @@ Contact
 License
 
 Overview
-cricket_score_display is a developer tool that facilitates the presentation of real-time cricket scores, integrating detailed match data and player statistics into a cohesive display. It serves as the backbone for building dynamic cricket scoreboards and analysis systems.
+cricket_score_display is a developer tool that facilitates the presentation of real-time cricket scores, integrating detailed match data and player statistics into a cohesive display [cite: image_5cf597.png]. It serves as the backbone for building dynamic cricket scoreboards and analysis systems [cite: image_5cf597.png].
 
-This project streamlines the process of tracking and displaying cricket match data.
+This project streamlines the process of tracking and displaying cricket match data [cite: image_5cf597.png].
 
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -59,9 +58,11 @@ Clone the repository:
 git clone https://github.com/mohanxz1/cricket_score_display.git
 cd cricket_score_display
 
+
 Compile the C code:
 
 gcc finaldef.c -o cricket_score_display
+
 
 Usage
 To run the program and input match data:
@@ -70,33 +71,34 @@ Execute the compiled program:
 
 ./cricket_score_display
 
+
 Follow the prompts:
 The program will guide you through entering match details such as:
 
-Team names (e.g., "India", "Australia") 
+Team names (e.g., "India", "Australia") [cite: finaldef.c]
 
-Venue (e.g., "Lords Cricket Ground") 
+Venue (e.g., "Lords Cricket Ground") [cite: finaldef.c]
 
-Date (e.g., "24,06,2025")
+Date (e.g., "24,06,2025") [cite: finaldef.c]
 
-Toss winner and their decision (bat or bowl) 
+Toss winner and their decision (bat or bowl) [cite: finaldef.c]
 
-Number of batsmen and their individual statistics (runs in ones, twos, threes, fours, sixes, balls played) for both innings.
+Number of batsmen and their individual statistics (runs in ones, twos, threes, fours, sixes, balls played) for both innings [cite: finaldef.c].
 
-Number of bowlers and their individual statistics (runs given, overs bowled, wickets taken, maiden overs) for both innings.
+Number of bowlers and their individual statistics (runs given, overs bowled, wickets taken, maiden overs) for both innings [cite: finaldef.c].
 
-Extras (wides, no-balls, byes, leg-byes) for each innings.
+Extras (wides, no-balls, byes, leg-byes) for each innings [cite: finaldef.c].
 
 Navigate the Menu:
 After all data is input, a menu will appear allowing you to view:
 
-Individual batsman details for either team.
+Individual batsman details for either team [cite: finaldef.c].
 
-Individual bowler details for either team.
+Individual bowler details for either team [cite: finaldef.c].
 
-A complete match summary, including total scores, extras, highest batsman scores, and best bowling figures for both innings, and the final result.
+A complete match summary, including total scores, extras, highest batsman scores, and best bowling figures for both innings, and the final result [cite: finaldef.c].
 
-The match summary will also be saved to a file named all_match_summaries.txt.
+The match summary will also be saved to a file named all_match_summaries.txt [cite: finaldef.c].
 
 Testing
 The provided code includes an interactive menu for viewing player statistics and a match summary, which serves as a form of functional testing for data accuracy and display.
@@ -111,7 +113,7 @@ Verify that the displayed individual player details and the overall match summar
 
 Check the all_match_summaries.txt file to ensure the match summary is correctly appended.
 
-Project Structure
+📂 Project Structure
 cricket_score_display/
 ├── finaldef.c                      # Main C source code file
 ├── all_match_summaries.txt         # Appended summary of all matches played (generated by program)
@@ -121,7 +123,8 @@ cricket_score_display/
 ├── <team1_name>_vs_<team2_name>_team2_bowler.txt  # Bowler data for Team 2 (generated by program)
 └── README.md                       # This file!
 
-Contact
+
+📞 Contact
 For any questions or suggestions, please feel free to reach out:
 
 GitHub: mohanxz1
@@ -130,3 +133,5 @@ Email: reachout.mohan9@gmail.com
 
 License
 This project is open-sourced under the MIT License. See the LICENSE.md file for details (if you choose to add one to your repository).
+
+(This README was generated on 2025-06-24)
