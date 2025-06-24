@@ -58,4 +58,4 @@ Built for simplicity. Powered by C. Made for local cricket.
 
 ---
 
-Let me know if you want to include example screenshots (from terminal), a `.gitigno
+Let me know if you want to include example screenshots (from terminal), a `.gitignore`, or match data samples in future updates.
